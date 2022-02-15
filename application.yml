@@ -1,5 +1,6 @@
 eureka:
   client:
+    registryFetchIntervalSeconds: 5
     register-with-eureka: true
     fetch-registry: true
     service-url:
